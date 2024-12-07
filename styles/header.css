@@ -45,6 +45,7 @@
 .navigation.open {
     max-height: 485px;
     opacity:1;
+    grid-column: 1 / 3;
 }
 
 .navigation a {
@@ -58,10 +59,14 @@
 .navigation.open a {
     display:flex;
     align-items:center;
-
+    height:44px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight:600;
+    font-size:1.5em;
 }
 
 .navigation a:hover {
     background-color:#fff;
-    color: #699ec9;;
+    color: #cd0000;
 }
+
